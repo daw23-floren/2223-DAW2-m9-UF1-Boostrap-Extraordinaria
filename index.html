@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Examen UF1 Bootstrap extra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Item2</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex">
+        <p style="color: azure;" href="#">PROYECTOS</p>
+        <button class="btn btn-success" type="button">Iniciar sesión <i class="bi bi-box-arrow-in-right"></i></button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-12">
+        <h2 class="text-start mb-4">Proyectos</h2>
+        <div class="card mt-5">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#tab1">Todos los proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tab2">Mis proyectos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body">
+            <div class="container">
+                <div class="row no-gutters justify-content-end">
+                  <div class="col-sm-auto justify-content-end d-flex">
+                    <button class="text-bg-dange bg-primary btn btn-outline-secondary inline-icons text-end" type="button">
+                      <i class="bi bi-grid-3x3"></i>
+                    </button>
+                  </div>
+                  <div class="col-sm-auto justify-content-end d-flex">
+                    <button class="text-bg-danger bg-primary btn btn-outline-secondary inline-icons text-end ms-auto" type="button">
+                      <i class="bi bi-list"></i>
+                    </button>
+                  </div>
+                  <div class="col-sm-4 justify-content-end">
+                    <div class="d-flex flex-column justify-content-between h-100">
+                      <div class="input-group mt-2">
+                        <button class="btn btn-outline-secondary" type="button">
+                          <i class="bi bi-search"></i>
+                        </button>
+                        <input type="text" class="form-control" placeholder="Buscar">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tab1">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Descripción</th>
+                      <th>Enlace</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Proyecto ejemplo 1</td>
+                      <td>Ejemplo de web para centro fp</td>
+                      <td><a href="http://www.fpllefia.com">http://www.fpllefia.com</a></td>
+                    </tr>
+                    <tr>
+                      <td>Proyecto ejemplo 1</td>
+                      <td>Ejemplo de web para centro fp</td>
+                      <td><a href="http://www.fpllefia.com">http://www.fpllefia.com</a></td>
+                    </tr>
+                    <tr>
+                      <td>Proyecto ejemplo 1</td>
+                      <td>Ejemplo de web para centro fp</td>
+                      <td><a href="http://www.fpllefia.com">http://www.fpllefia.com</a></td>
+                    </tr>
+                    <tr>
+                      <td>Proyecto ejemplo 1</td>
+                      <td>Ejemplo de web para centro fp</td>
+                      <td><a href="http://www.fpllefia.com">http://www.fpllefia.com</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="tab2">
+                <p>Contenido de la pestaña 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
